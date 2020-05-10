@@ -2,6 +2,11 @@ body {
   font-family: 'Press Start 2P', cursive;
   background: rgba(242, 242, 242, .6);
   margin: 0;
+  background: url(../images/gorgeousSpace.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 * {
@@ -10,7 +15,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #31b0d5;
+  background-color: black;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -40,8 +45,12 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #31b0d5; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
+  background: url(../images/gorgeousSpace.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   display: flex;
   flex-direction: column;
@@ -109,8 +118,16 @@ body {
   display: flex;
 }
 
+p1 {
+  color: aliceblue;
+}
+
 .white {
-  background: white;
+  background: url(../images/gorgeousSpace.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .side-content {
@@ -142,7 +159,7 @@ body {
 h2 {
   font-weight: 200;
   font-size: 2rem;
-  color: #31b0d5;
+  color: aliceblue;
   text-transform: uppercase;
   text-align: center;
 }
@@ -226,7 +243,7 @@ h4 {
   margin: 7px;
   padding: 5px 10px;
   color: white;
-  background: #31b0d5;
+  background: black;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
@@ -234,8 +251,12 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #3498db;
+  background: black;
   text-align: center;
+}
+
+h3 {
+  color: white;
 }
 
 .contact {
@@ -273,6 +294,11 @@ h4 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
+}
+
+.sidebar {
+  padding: 10px;
+  box-shadow: black;
 }
 
 .white-text {
